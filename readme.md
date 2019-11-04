@@ -1,17 +1,13 @@
-... 
-sh
+```sh
 1. npm init -y
-... 
-... 
-sh
+```
+```sh
 2. npm install --save-dev gh-pages
-or 
-...
-sh
+or
+
    npm i gh-pages 
-...
-... 
-sh
+```
+´´´sh
 3. in package.json 
 "homepage":"https://user.github.io/website-test.git",
 in 
@@ -19,38 +15,32 @@ in
     ...
     "deploy":"gh-pages -d dist"
 } 
-...
-... 
-sh
+```
+```sh
 4. erstellen
-...
-sh
+```
+```sh
 .gitgnore
 da einfügen 
-... 
-sh
+```
+```sh
 node_modules
-...
-... 
-sh
+```
+```sh
 5. git init 
-...
-... 
-sh
+```
+```sh
 6. git add .
-...
-... 
-sh
+```
+```sh
 7. git commit -a
-...
-... 
-sh
+```
+```sh
 8. git remote add origin git@github.com:user/website-test.git
-...
-... 
-sh
+```
+```sh
 9. git push -u origin master
-...
-... 
-sh
+```
+```sh
 10. npm run deploy
+```
