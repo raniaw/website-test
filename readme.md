@@ -7,7 +7,7 @@ or
 
    npm i gh-pages 
 ```
-´´´sh
+```sh
 3. in package.json 
 "homepage":"https://user.github.io/website-test.git",
 in 
