@@ -1,10 +1,8 @@
-1. 
-npm init -y
+1. npm init -y
 ... 
 ... 
 sh
-2. 
-npm install --save-dev gh-pages
+2. npm install --save-dev gh-pages
 or 
 ...
 sh
@@ -12,8 +10,7 @@ sh
 ...
 ... 
 sh
-3. 
-in package.json 
+3. in package.json 
 "homepage":"https://user.github.io/website-test.git",
 in 
 "script" : {
@@ -25,7 +22,6 @@ in
 sh
 4. erstellen
 ...
-
 sh
 .gitgnore
 da einfügen 
